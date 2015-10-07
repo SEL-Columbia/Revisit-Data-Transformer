@@ -167,4 +167,4 @@ We can then process the transformation via the command-line utility:
 $ ./transform.js -i "./data/kenya-health-sites.json" -t "./transformers/kenya-health.js" -o "kenya-health-transformed.json"
 ```
 
-The utility will load the input json, iterator through its contents transforming each object, then write the results to the output file.
+The utility will load the input json, iterate through its contents transforming each object, then write the results to the output file.
